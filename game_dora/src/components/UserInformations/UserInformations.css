@@ -1,0 +1,56 @@
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    form {
+        border-radius: 50px;
+        width: 80vh;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: #0260AA;
+        box-shadow: 0 4px 20px rgba(44, 43, 43, 0.6);
+    
+        h1 {
+          background-color: transparent;
+          color: aliceblue;
+        }
+    
+        input {
+          width: 80%;
+          color: aliceblue;
+          font-size: large;
+          border-radius: 50px;
+          border: 1px solid aliceblue;
+          box-shadow: 0 4px 20px rgba(39, 37, 37, 0.3);
+          background-color: transparent;
+          padding: 2% 4%;
+        }
+    
+        input::placeholder{
+          color: antiquewhite;
+        }
+      }
+}
+
+.register{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.allLogin{
+  display: block;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+}
+
+#logsin{
+  height: 50vh;
+}
